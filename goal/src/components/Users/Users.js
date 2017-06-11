@@ -42,11 +42,11 @@ function Users({ list: dataSource, total, page: current }) {
     <div className={styles.normal}>
       <div>
         <Table
-          columns={columns}   
+          columns={columns}
           dataSource={dataSource}
           rowKey={record => record.id}
           pagination={false}
-        /> {/*这里尽量别用不要用双斜杠注释了*/}
+        /> {/* 这里尽量别用不要用双斜杠注释了 */}
         <Pagination className="ant-table-pagination" total={total} current={current} pageSize={PAGE_SIZE} />
       </div>
     </div>
