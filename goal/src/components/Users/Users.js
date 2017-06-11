@@ -37,16 +37,16 @@ function Users({ list: dataSource, total, page: current }) {
         </span>
       ),
     },
-  ];
-  return (
+  ];// 是保留词，所以添加样式时，需用 className 代替 class
+  return (// React组件中JavaScript 表达式需要用 {} 括起来，会执行并返回结果。
     <div className={styles.normal}>
       <div>
         <Table
-          columns={columns}
+          columns={columns}   
           dataSource={dataSource}
           rowKey={record => record.id}
           pagination={false}
-        />
+        /> {/*这里尽量别用不要用双斜杠注释了*/}
         <Pagination className="ant-table-pagination" total={total} current={current} pageSize={PAGE_SIZE} />
       </div>
     </div>
