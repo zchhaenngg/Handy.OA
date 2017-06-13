@@ -1,6 +1,6 @@
 import dva from 'dva';
-import './index.css';
 import createLoading from 'dva-loading';
+import './index.css';
 
 // 1. Initialize
 const app = dva({
