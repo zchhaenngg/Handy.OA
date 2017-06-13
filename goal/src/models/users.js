@@ -10,6 +10,8 @@ export default {
     // 定义对象方法可以省略关键字 function
     save(state, { payload: { data: list, total, page } }) {
       // 析构的反向操作。state的每个元素和list,total,page反向组成一个新的对象。
+      // 在 dva 中，reducers 聚合积累的结果是当前 model 的 state 对象。
+      // 通过 actions 中传入的值，与当前 reducers 中的值进行运算获得新的值（也就是新的 state）。
       return { ...state, list, total, page };
     },
   },
