@@ -27,6 +27,11 @@ export default {
         },
       });
     },
+    *remove({ payload: id }, { call, put, select }) {
+      yield call(usersService.remove, id);
+      const page = yield select(state => state.users.page);
+      yield put({ type: 'fetch', payload: { page } });
+    },
   },
   subscriptions: {// 订阅，用于订阅一个数据源，然后根据需要 dispatch 相应的 action。
     setup({ dispatch, history }) {

@@ -15,6 +15,7 @@
     "babel-plugin-import": "^1.2.1",
     "babel-runtime": "^6.9.2",
     "dva": "^1.2.1",
+    "dva-loading": "^0.2.1",
     "has-flag": "^2.0.0",
     "jscs": "^3.0.7",
     "locate-path": "^2.0.0",
