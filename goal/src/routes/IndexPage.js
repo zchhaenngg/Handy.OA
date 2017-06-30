@@ -6,7 +6,7 @@ import MainLayout from '../components/MainLayout/MainLayout';
 function IndexPage(location) {
   return (
     <MainLayout location={location}>
-      <div className={styles.normal}>
+      <div>
         <h1 className={styles.title}>Yay! Welcome to dva!</h1>
         <h1 className={styles.title}>Yay! Welcome to dva!</h1>
         <ul className={styles.list}>

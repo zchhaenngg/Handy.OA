@@ -17,6 +17,7 @@ app.use(createLoading());
 
 // 3. Model
 app.model(require('./models/users'));
+app.model(require('./models/project/project'));
 
 // 4. Router
 app.router(require('./router'));
