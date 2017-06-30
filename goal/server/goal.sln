@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handy.OAGoal.WebAPI", "src\Handy.OAGoal.WebAPI\Handy.OAGoal.WebAPI.csproj", "{F8778287-A8A6-4E55-87EF-1CD2668BA3E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handy.OAGoal.WebAPI.Tests", "src\Handy.OAGoal.WebAPI.Tests\Handy.OAGoal.WebAPI.Tests.csproj", "{A8055ED6-6770-4B75-9E7E-AE80F44EE3E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8778287-A8A6-4E55-87EF-1CD2668BA3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8778287-A8A6-4E55-87EF-1CD2668BA3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8778287-A8A6-4E55-87EF-1CD2668BA3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8778287-A8A6-4E55-87EF-1CD2668BA3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8055ED6-6770-4B75-9E7E-AE80F44EE3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8055ED6-6770-4B75-9E7E-AE80F44EE3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8055ED6-6770-4B75-9E7E-AE80F44EE3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8055ED6-6770-4B75-9E7E-AE80F44EE3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

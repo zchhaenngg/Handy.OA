@@ -1,8 +1,0 @@
-{
-	"preset": "airbnb",
-	"validateIndentation": null,
-	"requirePaddingNewLinesAfterBlocks": null,
-	"requireShorthandArrowFunctions": null,
-	"maximumLineLength": null,
-	"fix": true
-}
